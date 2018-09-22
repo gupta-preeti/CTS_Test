@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  background: #fff;
+}
+
+.pearon-users {
+  margin: 50px auto;
+}
+
+.pearon-users h1 {
+    color: #007FA3;
+    margin: 20px;
+    font:36px/36px 'Roboto';
+}
+
+.user-wrapper {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0;
+  justify-content: center;
+  background: #d8d8d8;
+}
+
+.user-wrapper .user-details {
+  background: #fff;
+  width: 212px;
+  height: 120px;
+  margin: 30px 20px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+.user-wrapper .user-details .pic {
+    width: 80px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.user-wrapper .user-details .pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top:-50%;
+}
+  .user-wrapper .user-details .title {
+    font: 18px/22px 'Roboto';
+    color: #E93939;
+    margin: 12px 0;
+    text-align: center;
+  }
+
+  .user-wrapper .user-details .delete {
+    font: 14px/18px 'Roboto';
+    color: #007FA3;
+    cursor: pointer;
+  }
